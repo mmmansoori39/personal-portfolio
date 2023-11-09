@@ -29,7 +29,7 @@ const Services = () => {
         <span>
           I am a Full Stack Developer and UI/UX Designer,
           <br />
-          I have some skills related to this.
+          I have some skills related to this...
         </span>
         <a href={Resume} download>
           <button className="button m-button" style={{marginTop:20}} >Download RESUME</button>

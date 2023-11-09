@@ -5,6 +5,8 @@ import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import Linkd from "@iconscout/react-unicons/icons/uil-linkedin";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
