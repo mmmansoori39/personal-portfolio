@@ -30,7 +30,11 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Md Moinuddin Mansoori</span>
           <span>
-          a passionate and versatile Full Stack Developer and UI/UX Designer, dedicated to creating exceptional digital experiences. With a deep understanding of both the technical and visual aspects of web development, I strive to deliver seamless, intuitive, and visually stunning solutions that captivate users and drive results.
+            a passionate and versatile Full Stack Developer and UI/UX Designer,
+            dedicated to creating exceptional digital experiences. With a deep
+            understanding of both the technical and visual aspects of web
+            development, I strive to deliver seamless, intuitive, and visually
+            stunning solutions that captivate users and drive results.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -38,9 +42,18 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/mmmansoori39" target="_blank">
+            <img src={Github} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/md-moinuddin-mansoori-7532a7232/"
+            target="_blank"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.instagram.com/mmmansoori39/" target="_blank">
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}

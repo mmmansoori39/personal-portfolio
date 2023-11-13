@@ -15,10 +15,21 @@ const Footer = () => {
       <div className="f-content">
         <span>mdmoinuddinmansoori@gmail.com</span>
         <div className="f-icons">
-          <Gitub color="white" size={"3rem"} />
-          <Linkd color="white" size={"3rem"} />
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
+          <a href="https://github.com/mmmansoori39" target="_blank">
+            <Gitub color="white" size={"3rem"} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/md-moinuddin-mansoori-7532a7232/"
+            target="_blank"
+          >
+            <Linkd color="white" size={"3rem"} />
+          </a>
+          <a href="https://www.instagram.com/mmmansoori39/" target="_blank">
+            <Insta color="white" size={"3rem"} />
+          </a>
+          <a href="https://www.facebook.com/r.rabbaniya" target="_blank">
+            <Facebook color="white" size={"3rem"} />
+          </a>
         </div>
       </div>
     </div>
